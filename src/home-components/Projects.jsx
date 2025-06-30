@@ -1,7 +1,5 @@
-import { useNavigate } from "react-router-dom";
 
 export default function Projects() {
-  const navigate = useNavigate();
 
   return (
     <div className="section" id="contact">
@@ -13,21 +11,21 @@ export default function Projects() {
             <tbody>
               <tr
                 className="hover:bg-[#44502266] transition duration-300 cursor-pointer"
-                onClick={() => navigate("/projects/dna")}
+                onClick={() => window.open("https://dnaencode.streamlit.app/", "_blank")}
               >
                 <td>DNA Encoding</td>
                 <td>String matching algorithm</td>
               </tr>
               <tr
                 className="hover:bg-[#44502266] transition duration-300 cursor-pointer"
-                onClick={() => navigate("/projects/huffman")}
+                onClick={() => window.open("https://huffmanimagecoding.streamlit.app/", "_blank")}
               >
                 <td>Image compression</td>
                 <td>Huffman coding and Tree</td>
               </tr>
               <tr
                 className="hover:bg-[#44502266] transition duration-300 cursor-pointer"
-                onClick={() => navigate("/projects/aco")}
+                onClick={() => window.open("https://qos-aco.streamlit.app/", "_blank")}
               >
                 <td>ACO based QoS routing</td>
                 <td>ACO algorithm</td>

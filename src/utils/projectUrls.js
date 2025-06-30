@@ -1,5 +1,5 @@
 const PROJECT_URLS = {
-  dnaEncoding: "http://localhost:8501", // Replace with your actual deployed link
+  dnaEncoding: "http://localhost:8501", 
   huffmanImage: "http://localhost:8502",
   qosAco: "http://localhost:8503",
 };
