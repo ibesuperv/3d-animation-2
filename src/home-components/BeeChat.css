@@ -1,0 +1,20 @@
+.bee-chat {
+  position: fixed;
+  bottom: 150px;
+  left: 60px;
+  z-index: 200;
+  pointer-events: none;
+  max-width: 300px;
+}
+
+.bee-bubble {
+  background: #eef8ce;
+  color: #1B1B1B;
+  padding: 1em 1.2em;
+  border-radius: 1.5em;
+  font-size: 1em;
+  font-weight: 600;
+  box-shadow: 0 0 10px #00000033;
+  animation: fadeIn 1s ease-in-out;
+  min-height: 60px;
+}

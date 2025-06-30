@@ -1,0 +1,11 @@
+.link-title {
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.2s ease;
+  color: #d1ff48;
+}
+
+.link-title:hover {
+  transform: scale(1.05);
+  color: #ffffff;
+  text-shadow: 0 0 10px #d1ff48aa;
+}
