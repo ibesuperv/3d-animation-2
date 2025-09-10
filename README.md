@@ -1,4 +1,4 @@
-# 🐝 3D Animation Project (Vite + React)
+# 🐝 3D animation and algorithm learning platform
 
 An interactive **3D animation and algorithm learning platform** built with **React** and **Vite**.  
 It combines **beautiful 3D scenes** with **algorithm visualizations** and a **"Learn by Project" section**,  
